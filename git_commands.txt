@@ -52,3 +52,18 @@ git ls-files -u
 // 3 is the other branch version
 
 git show :1:'file name'					>>	show that version of conflicted file
+
+##################
+##### GITHUB #####
+##################
+
+create folder
+inside folder:
+git init
+git remote 
+git remote add 'name of repository to be created at your desktop' 'http adress of github repository'
+git config --global credential.helper wincred >> to password or same like this...
+to add:
+create file at your desktop
+git add and git commit
+git push 'name of desktop repository' 'name of github master repository'
