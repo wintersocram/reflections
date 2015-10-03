@@ -67,3 +67,5 @@ to add:
 create file at your desktop
 git add and git commit
 git push 'name of desktop repository' 'name of github master repository'
+
+git pull 'name of desktop repository' 'name of github master repository'
