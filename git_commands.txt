@@ -1,0 +1,54 @@
+# GIT COMMANDS
+# created by wintersocram in 2015-10-03 18:20
+# mail to wintersocram@gmail.com
+#
+# Reflections:
+# 03 oct: now, I am liven at Montréal with my wife, she is studying at Universoty 
+# of Montreal and I am without any job. My perspectives are not good, cause
+# I am not a specialisty in any area, and IT jobs at Montreal apparently need
+# that you be a specialisty. I am studying Android development to try take a job
+# and i want to be a android/java specialisty in few months.
+# I have start my studies just 4 days ago, and this last 3 days i has study git,
+# cause the course of android gived by udacity adviced to make this course before.
+# I hope I can take same job as Jr. Developer, nad if I cannot take a job this 
+# next week, i will take a job as priduction (industrial) and stuci by nights
+# and weekends to take same certification in Java and android, and I will
+# make same app to, to use as portifolio to my next search of jobs.
+
+git log
+git log --graph
+git log --oneline
+
+areas:
+working directory; staging area; repository
+git diff						>>	working directory - staging area
+git diff --staged				>>	staging area - repository
+git diff 'commit1' 'commit2'	>>	repository commit1 - repository commit2
+
+git show 'commit'
+
+git status
+
+git commit -m ""
+git commit
+
+git branch
+git branch 'new_branch'
+
+git checkout 'commit'
+git checkout 'branch'
+
+git merge 'branch_master' 'branch_to_merge'
+git branch -d 'branch_name'	>> delete this branch
+git show :'branch_name':'file_name'	>>	show the file from this branch
+
+git checkout -- 'file_name'		>> remove chance of working area
+git reset '' ?????
+
+//if has conflict on merge, 3 versions of conflicted file are create, 1, 2 and 3
+git ls-files -u
+// 1 is the common ancestor
+// 2 is master version
+// 3 is the other branch version
+
+git show :1:'file name'					>>	show that version of conflicted file
